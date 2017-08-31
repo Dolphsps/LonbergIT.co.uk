@@ -33,7 +33,7 @@ theme = "tranquilpeak"
   identifier = "home"
   name = "Home"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
-  url = "/about"
+  url = "/home"
 [[menu.main]]
   weight = 1
   identifier = "About"
