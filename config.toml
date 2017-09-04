@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://www.lonbergit.co.uk"
+baseurl = "http://lonbergit.co.uk"
 languageCode = "en-us"
 title = "Agency"
 theme = "agency"
