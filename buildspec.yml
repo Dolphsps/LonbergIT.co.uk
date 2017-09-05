@@ -14,10 +14,8 @@ phases:
     
   build:
     commands:
-      - hugo -v --log
-      - sleep 10
+      - hugo -v
       - ls -la public
-      - tree
 
   post_build:
     commands:
