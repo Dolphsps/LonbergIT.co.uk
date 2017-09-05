@@ -1,4 +1,4 @@
 # Any locally rendered site files
 /public
-/themes/agency/.git
+/themes/*
 
