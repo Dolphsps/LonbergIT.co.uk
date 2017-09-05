@@ -9,7 +9,6 @@ environment_variables:
 phases:
   install:
     commands:
-      - sudo apt-get install tree
       - wget https://github.com/gohugoio/hugo/releases/download/v0.26/hugo_0.26_Linux-64bit.deb
       - dpkg -i hugo_0.26_Linux-64bit.deb
     
@@ -19,7 +18,7 @@ phases:
       - sleep 10
       - ls -la public
       - tree
-      
+
   post_build:
     commands:
       - aws s3 sync --delete public s3://lonbergit.co.uk --cache-control max-age=3600
