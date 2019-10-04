@@ -30,7 +30,7 @@ phases:
       - echo "Entering post-build phase"
       - zip -qr dev.zip public/*
     finally:
-      - echo "Post-build complete"
+      - echo "Files zipped and post-build complete"
 
 artifacts:
   files:
