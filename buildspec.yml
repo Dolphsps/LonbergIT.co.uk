@@ -27,7 +27,7 @@ phases:
     finally:
       - echo "Building the HTML files finished"
       - ls -la public
-  post-build:
+  post_build:
     command:
       - echo "Entering post-build phase"
       - zip -qr dev.zip public/*
