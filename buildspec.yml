@@ -3,16 +3,39 @@ version: 0.2
 environment_variables:
   plaintext:
     AWS_DEFAULT_REGION: "eu-west-1"
-    HUGO_VERSION: "0.26"
+    HUGO_VERSION: "0.53"
     HUGO_SHA256: "67e4ba5ec2a02c8164b6846e30a17cc765b0165a5b183d5e480149baf54e1a50"
 
 phases:
   install:
     commands:
-      - wget https://github.com/gohugoio/hugo/releases/download/v0.26/hugo_0.26_Linux-64bit.deb
-      - dpkg -i hugo_0.26_Linux-64bit.deb
+      - echo "Entered the install phase..."
+      - apt-get -qq update && apt-get -qq install curl
+      - apt-get -qq install asciidoctor
+      - curl -s -L https://github.com/gohugoio/hugo/releases/download/v0.53/hugo_0.53_Linux-64bit.deb -o hugo.deb
+      - dpkg -i hugo.deb
+    finally:
+      - echo "Installation done"
     
   build:
     commands:
+      - echo "Entered the build phase ..."
+      - echo "Build started on `date`"
+      - cd $CODEBUILD_SRC_DIR
+      - rm -f buildspec.yml && rm -f .git && rm -f README.md
       - hugo -v
+    finally:
+      - echo "Building the HTML files finished"
       - ls -la public
+  post-build:
+    command:
+      - echo "Entering post-build phase"
+      - zip -qr dev.zip public/*
+    finally:
+      - echo "Post-build complete"
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: $CODEBUILD_SRC_DIR/public/
+  discard-paths: no  
