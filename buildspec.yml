@@ -1,4 +1,4 @@
-version: 0.1
+version: 0.2
 
 environment_variables:
   plaintext:
@@ -16,7 +16,3 @@ phases:
     commands:
       - hugo -v
       - ls -la public
-
-  post_build:
-    commands:
-      - aws s3 sync --delete public s3://lonbergit.co.uk --cache-control max-age=3600
