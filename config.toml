@@ -137,25 +137,48 @@ googleAnalytics = ""
       img = "1.jpg"
       date = "1997"
       title = "Our Humble Beginnings"
-      description = "After an initial career in the Hospitality consultancy business which included a stint on the QE2 as a wine waiter, I joined EDS on the Xerox account in Marlow, UK."
+      description = "After an initial career in the Hospitality consultancy business which included a stint on the QE2 as a wine waiter, I joined EDS on the Xerox account in Marlow, UK working with general technical support across a range of business units."
       
+    [[params.about.events]]
+      img = "2.jpg"
+      date = "Septemeber 1999"
+      title = "A stint in Denmark"
+      description = "Living in London has its challenges as most will know and we decided to try our luck in Denmark where I am originally from despite not having lived there since I was 16.  <br> I joined Nordea - one of Scandinavia's largest bank - as an Infrastructure Manager for their new head office campus in Central Copenhagen."  
+      
+    [[params.about.events]]
+      img = "2.jpg"
+      date = "December 2001"
+      title = "Reutrn to the UK (and EDS)"
+      description = "Whilst Central Copenhagen certainly has its charms, we decided to return to the UK in late 2001 and this time settled in the North-West re-joining EDS on the DWP account in the middle of the NT4 Rollout Project which was one of the largest Global desktop roll out programmes with in excess of 180,000 workstrations."
+
     [[params.about.events]]
       img = "2.jpg"
       date = "August 2005"
       title = "Lonberg IT LTD"
-      description = "Feeling increasingly disgruntled about being a "
+      description = "Feeling increasingly disgruntled about being part of a major organisation where opportunities for education, development of news skills and promotion seemed to be lacking, I chose to resign and set out as a freelance contractor."
 
     [[params.about.events]]
-      img = "3.jpg"
-      date = "July 2007"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "2.jpg"
+      date = "August 2005 - July 2007"
+      title = "HBOS"
+      description = "Working with HBOS out of their Chester, Manchester and Edinburgh offices."
 
     [[params.about.events]]
-      img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "2.jpg"
+      date = "July 2007 - August 2008"
+      title = "HBOS"
+      description = "Working with Barclays out of their Knutsford, Cheshire office."
+
+    [[params.about.events]]
+      img = "2.jpg"
+      date = "August 2008 - December 2009"
+      title = "Unilever"
+      description = "Working with Unilever across Europe for a large infrastructure centralisation programme.  I had specific responsbilities for the delivery across The Nordics, Poland and the Baltics, Spain, Greece and Cyprus."
+    [[params.about.events]]
+      img = "2.jpg"
+      date = "February 2010 - December 2012"
+      title = "Tesco Bank"
+      description = "Working with Tesco Bank in Edinburgh on the stand up of the first major challenger bank in the UK.  Ended up relocating to Scotland with the family as a consequence - a choice we have never regretted."
 
 
   # Team section
