@@ -93,17 +93,17 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-cloud"
       title = "Cloud Adoption"
-      description = ""
+      description = "Well.. Cloud is the new normal."
       
     [[params.services.row.list]]
       icon = "fa-server"
       title = "Infrastructure Programme Delivery"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "...although most companies still maintain a sizeable presence in their current data centres."
       
     [[params.services.row.list]]
       icon = "fa-support"
       title = "Programme Support"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "Programmes don't run themselves.  We offer a number of services with regards to support including Financial Management Services, Resource Management, RAID management and a suite of Management Reporting templates."
       
 
   # Portfolio section
@@ -166,7 +166,7 @@ googleAnalytics = ""
     [[params.about.events]]
       img = "2.jpg"
       date = "July 2007 - August 2008"
-      title = "HBOS"
+      title = "Barclays Bank PLC"
       description = "Working with Barclays out of their Knutsford, Cheshire office."
 
     [[params.about.events]]
