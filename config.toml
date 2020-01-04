@@ -148,7 +148,7 @@ googleAnalytics = ""
     [[params.about.events]]
       img = "2.jpg"
       date = "December 2001"
-      title = "Reutrn to the UK (and EDS)"
+      title = "Return to the UK (and EDS)"
       description = "Whilst Central Copenhagen certainly has its charms, we decided to return to the UK in late 2001 and this time settled in the North-West re-joining EDS on the DWP account in the middle of the NT4 Rollout Project which was one of the largest Global desktop roll out programmes with in excess of 180,000 workstrations."
 
     [[params.about.events]]
