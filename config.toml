@@ -117,10 +117,18 @@ googleAnalytics = ""
     subtitle = "These are some of the projects we have delivered since 2005"
 
     [params.portfolio.modal]
-      client = "Tesco Group"
+      client = "Tesco Bank"
       date = "2015"
       category = "Cloud"
       buttonText = "Close project"
+    
+    [params.portfolio.modal]
+      client = "Tesco Bank"
+      date = "2011"
+      category = "Infrastructure Management"
+      buttonText = "Close project"
+
+
 
 
     # About section
