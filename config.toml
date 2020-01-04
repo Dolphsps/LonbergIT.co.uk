@@ -122,14 +122,6 @@ googleAnalytics = ""
       category = "Cloud"
       buttonText = "Close project"
     
-    [params.portfolio.modal]
-      client = "Tesco Bank"
-      date = "2011"
-      category = "Infrastructure Management"
-      buttonText = "Close project"
-
-
-
 
     # About section
   [params.about]
