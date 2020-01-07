@@ -7,12 +7,10 @@ environment_variables:
 
 phases:
   install:
+    runtime-versions:
+        golang: 1.13
     commands:
       - echo "Entered the install phase..."
-      - apt-get -qq update && apt-get upgrade -y
-      - apt-get -qq install curl
-      - apt-get -qq install apt-utils
-      - apt-get -qq install asciidoctor
       - curl -s -L https://github.com/gohugoio/hugo/releases/download/v0.62.2/hugo_0.62.2_Linux-64bit.deb -o hugo.deb
       - dpkg -i hugo.deb
     finally:
