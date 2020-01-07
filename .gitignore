@@ -1,4 +1,2 @@
-# Any locally rendered site files
-/public
-
-
+public/
+syna-start/
