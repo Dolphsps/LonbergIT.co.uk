@@ -1,8 +1,12 @@
 # Site settings
 baseurl = "http://lonbergit.co.uk.s3-website-eu-west-1.amazonaws.com/"
 languageCode = "en"
-title = "Agency"
-theme = "agency"
+#title = "Agency"
+#theme = "agency"
+
+title = "Lonberg IT LTD"
+theme = "silhouette-hugo"
+
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
@@ -140,13 +144,13 @@ googleAnalytics = ""
       description = "After an initial career in the Hospitality consultancy business which included a stint on the QE2 as a wine waiter, I joined EDS on the Xerox account in Marlow, UK working with general technical support across a range of business units."
       
     [[params.about.events]]
-      img = "2.jpg"
+      img = "/img/nordea_logo.jpg"
       date = "Septemeber 1999"
       title = "A stint in Denmark"
       description = "Living in London has its challenges as most will know and we decided to try our luck in Denmark where I am originally from despite not having lived there since I was 16.  <br> I joined Nordea - one of Scandinavia's largest bank - as an Infrastructure Manager for their new head office campus in Central Copenhagen."  
       
     [[params.about.events]]
-      img = "2.jpg"
+      img = "/img/eds_logo.png"
       date = "December 2001"
       title = "Return to the UK (and EDS)"
       description = "Whilst Central Copenhagen certainly has its charms, we decided to return to the UK in late 2001 and this time settled in the North-West re-joining EDS on the DWP account in the middle of the NT4 Rollout Project which was one of the largest Global desktop roll out programmes with in excess of 180,000 workstrations."
