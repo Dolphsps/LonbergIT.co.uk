@@ -164,7 +164,7 @@ googleAnalytics = ""
       description = "Working with HBOS out of their Chester, Manchester and Edinburgh offices."
 
     [[params.about.events]]
-      img = "/static/img/barclays_logo.jpg"
+      img = "/img/barclays_logo.jpg"
       date = "July 2007 - August 2008"
       title = "Barclays Bank PLC"
       description = "Working with Barclays out of their Knutsford, Cheshire office."
@@ -176,7 +176,7 @@ googleAnalytics = ""
       description = "Working with Unilever across Europe for a large infrastructure centralisation programme.  I had specific responsbilities for the delivery across The Nordics, Poland and the Baltics, Spain, Greece and Cyprus."
     
     [[params.about.events]]
-      img = "/static/img/tesco_bank_logo.png"
+      img = "/img/tesco_bank_logo.png"
       date = "February 2010 - December 2012"
       title = "Tesco Bank"
       description = "Working with Tesco Bank in Edinburgh on the stand up of the first major challenger bank in the UK.  Ended up relocating to Scotland with the family as a consequence - a choice we have never regretted."
