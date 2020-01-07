@@ -3,7 +3,8 @@ version: 0.2
 environment_variables:
   plaintext:
     AWS_DEFAULT_REGION: "eu-west-1"
-    HUGO_VERSION: "0.62.2"
+    HUGO_VERSION: "0.53"
+    HUGO_SHA256: "67e4ba5ec2a02c8164b6846e30a17cc765b0165a5b183d5e480149baf54e1a50"
 
 phases:
   install:
@@ -11,7 +12,7 @@ phases:
       - echo "Entered the install phase..."
       - apt-get -qq update && apt-get -qq install curl
       - apt-get -qq install asciidoctor
-      - curl -s -L https://github.com/gohugoio/hugo/releases/download/v0.62.2/hugo_0.62.2_Linux-64bit.deb -o hugo.deb  
+      - curl -s -L - curl -s -L https://github.com/gohugoio/hugo/releases/download/v0.53/hugo_0.53_Linux-64bit.deb -o hugo.deb  
       - dpkg -i hugo.deb
     finally:
       - echo "Installation done"
