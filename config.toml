@@ -6,6 +6,7 @@ title = "Lonberg IT LTD - A Stirling based IT Consultancy"
 theme = "syna"
 enableGitInfo = true
 version = "0.16.0"
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 # Google Analytics tracking
 googleAnalytics = ""
