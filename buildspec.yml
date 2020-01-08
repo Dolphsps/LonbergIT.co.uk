@@ -23,7 +23,7 @@ phases:
     commands:
       - echo "Entered the build phase ..."
       - echo "Build started on `date`"
-      - chmod +x ./codebuild-git-wrapper.sh
+      - chmod +x ./scripts/codebuild-git-wrapper.sh
       - scripts/codebuild-git-wrapper.sh https://git-codecommit.eu-west-1.amazonaws.com/v1/repos/www.lonbergit.co.uk master
       - git log | head -100
       - hugo -v
