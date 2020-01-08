@@ -4,6 +4,8 @@ title = "Getting Cloud Right for Small, Medium and Enterprise Companies"
 themesDir = "themes/"
 theme = "hugo-hero-theme"
 
+disableKinds (["taxonomy","taxonomyTerm", "section", "home", "page"])
+
 [params]
   google_analytics_id=""
 
