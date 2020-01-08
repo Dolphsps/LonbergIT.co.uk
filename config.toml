@@ -1,7 +1,7 @@
 baseURL = "www.lonbergit.co.uk"
 languageCode = "en-us"
 title = "Getting Cloud Right for Small, Medium and Enterprise Companies"
-#themesDir = "../.."
+themesDir = "themes/"
 theme = "hugo-hero-theme"
 
 [params]
