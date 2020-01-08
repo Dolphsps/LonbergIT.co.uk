@@ -1,8 +1,8 @@
-+++
-fragment = "nav"
+---
+#fragment = "nav"
 #disabled = true
-date = "2018-05-17"
-weight = 0
+#date = "2018-05-17"
+#weight = 0
 #background = ""
 
 #[repo_button]
@@ -11,9 +11,9 @@ weight = 0
 #  icon = "fab fa-github" # defaults: "fab fa-github"
 
 # Branding options
-[asset]
-  image = "LonbergIT.png"
-  text = "LonbergIT"
-  width = 50
-  height = 50
-+++
+#[asset]
+#  image = "LonbergIT.png"
+#  text = "LonbergIT"
+#  width = 50
+#  height = 50
+---

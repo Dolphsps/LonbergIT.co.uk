@@ -1,11 +1,11 @@
-+++
-fragment = "content"
+---
+#fragment = "content"
 #disabled = false
-date = "2017-09-09"
-weight = 1000
-
-background = "light"
-+++
+#date = "2017-09-09"
+#weight = 1000
+##
+#background = "light"
+---
  
 ### A Scotland based Cloud and Infrastructure Delivery Consultancy  
 

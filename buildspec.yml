@@ -14,7 +14,7 @@ phases:
         golang: 1.13
     commands:
       - echo "Entered the install phase..."
-      - curl -s -L https://github.com/gohugoio/hugo/releases/download/v0.62.2/hugo_0.62.2_Linux-64bit.deb -o hugo.deb
+      - curl -s -L https://github.com/gohugoio/hugo/releases/download/v0.62.2/hugo_extended_0.62.2_Linux-64bit.deb -o hugo.deb
       - dpkg -i hugo.deb
     finally:
       - echo "Installation done"

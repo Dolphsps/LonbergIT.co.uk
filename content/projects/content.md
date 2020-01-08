@@ -1,12 +1,12 @@
-+++
-fragment = "content"
+---
+#fragment = "content"
 #disabled = true
-date = "2017-10-05"
-weight = 100
+#date = "2017-10-05"
+#weight = 100
 #background = ""
-title = "Some of the projects we have delivered"
+#title = "Some of the projects we have delivered"
 #subtitle = ""
-+++
+---
 
 ## Client Projects
 

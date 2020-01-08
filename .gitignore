@@ -1,2 +1,6 @@
+# Files
+*.old
+
+# Folders
 public/
 

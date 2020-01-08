@@ -1,4 +1,4 @@
-+++
-title = "Projects"
-date = "2017-10-05"
-+++
+---
+#title = "Projects"
+#date = "2017-10-05"
+---

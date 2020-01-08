@@ -1,13 +1,13 @@
-+++
-fragment = "content"
+---
+#fragment = "content"
 #disabled = true
-date = "2017-10-05"
-weight = 100
+#date = "2017-10-05"
+#weight = 100
 #background = ""
 
-title = "About Lonberg IT LTD"
+#title = "About Lonberg IT LTD"
 #subtitle = ""
-+++
+---
 
 ## Meet the Team
 <br>
