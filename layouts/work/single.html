@@ -32,8 +32,8 @@
 {{ $services := resources.Get "js/pages/services.js" }}
 {{ $servicesJS := slice $library $services |resources.Concat "js/services.js" }}
 {{ if .Site.IsServer }}
-  <script type="text/javascript" src="{{ $servicesJS.RelPermalink }}"></script>
+  <script type="text/javascript" src="{{ $servicesJS.Permalink }}"></script>
   {{ else }}
-  <script type="text/javascript" src="{{ ($servicesJS | minify | fingerprint).RelPermalink }}"></script>
+  <script type="text/javascript" src="{{ ($servicesJS | minify | fingerprint).Permalink }}"></script>
   {{ end }}
 {{ end }}
