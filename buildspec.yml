@@ -21,7 +21,7 @@ phases:
       - echo "Entered the build phase ..."
       - echo "Build started on `date`"
       - ls -la content/
-      - hugo -v
+      - hugo --debug
     finally:
       - echo "Building the HTML files finished"
       - ls -la public
