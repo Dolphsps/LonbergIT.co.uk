@@ -1,4 +1,8 @@
-# Any locally rendered site files
-/public
+# Files
+*.old
+*.bak
 
+
+# Folders
+public/
 

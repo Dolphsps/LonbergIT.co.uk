@@ -1,5 +1,7 @@
-## Lonberg IT LTD  
-### A UK based Cloud and Infrastructure Delivery Consultancy  
-
-We offer advise and guidance for Enterprise customers on their Public Cloud enablement, setup and security controls and Project and Programme Management Support where we have supported programmes in most major Retail Bank organisations in Scotland.  
-
+---
+title: 'Home'
+date: 2018-02-12T15:37:57+07:00
+heroHeading: 'Lonberg IT LTD'
+heroSubHeading: 'Advice, guidance and hands-on assistance for Small, Medium and Enterprise customers on their Public Cloud enablement, setup and security controls.'
+heroBackground: 'images/jason-blackeye-1191801-unsplash.jpg'
+---
