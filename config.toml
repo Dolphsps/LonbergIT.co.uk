@@ -1,4 +1,4 @@
-baseURL = "www.lonbergit.co.uk"
+baseURL = "/"
 languageCode = "en-us"
 title = "Getting Cloud Right for Small, Medium and Enterprise Companies"
 themesDir = "themes/"
