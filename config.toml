@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://lonbergit.co.uk.s3-website-eu-west-1.amazonaws.com/"
+baseurl = "/"
 languageCode = "en"
 title = "Agency"
 theme = "agency"
