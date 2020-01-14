@@ -10,7 +10,7 @@ heroSubHeading: 'We offer general accouting on hourly rate or fixed fee'
 heroBackground: 'services/service1.jpg'
 ---
 
-### "Cloud is the new Normal"
+### "Cloud is no longer just the new Normal"
 ### "Cloud is now more secure than your own data centre"
 
 #### You will have heard the soundbites but that doesn't mean adopting 'The Cloud' is easy
